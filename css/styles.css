@@ -1,0 +1,202 @@
+/* about me */
+body{
+    background-color: #424242;
+    color:azure;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main{
+    background-color: #121212;
+    text-align: center;
+    margin: auto 50px;
+    padding-bottom: 5px;
+    
+}
+
+.mypic{
+    position: absolute;
+    margin: 20px auto auto 100px;
+    width: 100px;
+}
+
+.name{
+    padding-top: 50px;
+    margin: 0 auto 100px auto;
+}
+
+
+
+.profileimages{
+    width: 15%;
+    float: left;
+    margin-right: 10%;
+}
+
+.hobbiesimg{
+    width: 20%;
+    float: left;
+    margin-right: 5%;
+}
+.profile-row{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    line-height: 2;
+    text-align: left;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+.navbar{
+    text-decoration: none;
+    margin: 20px 30px;
+    color: azure;
+}
+
+.navbar:hover{
+    color: blanchedalmond;
+}
+
+/* about me end */
+
+/* contact me */
+
+.main-contact{
+    background-color: #121212;
+    margin: 30px 100px;
+    overflow: hidden;
+}
+.intro-contact{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.priority{
+    margin: 10px;
+    margin-left: auto;
+}
+
+.contactintro{
+    font-weight: lighter;
+}
+form{
+     margin: 30px 500px 100px 300px;
+     padding-bottom: 50px;
+       
+}
+.forminput{
+    width: 500px;
+    height: 30px;
+    margin: 10px auto;
+}
+
+#submitbutton:hover{
+    color: blue;
+}
+textarea{
+    margin:20px auto;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* contact end */
+
+/* register */
+
+.registerinput{
+    width: 500px;
+    height: 30px;
+    margin: 20px auto;
+}
+
+.registerintro{
+    padding-top: 20px;
+    text-align: center;
+}
+.registerform{
+    margin: 50px auto auto 400px;
+}
+.main-register{
+    background-color: #121212;
+    margin: 10px 50px;  
+}
+/* register end */
+
+/* log in */
+.login{
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    color: #3c434a;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+    line-height: 2;
+   
+}
+
+.btnlogin{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.btnlogin:hover{
+    background-color: #c3c4c7;
+}
+
+@media (max-width:768px){
+    .login{
+        margin: auto;
+        margin-top: 100px;
+    }
+}
+
+.loginform{
+    background-color: #121212;
+    margin: 50px 300px;
+    padding: 50px;
+}
+
+.inputlogin , .btnlogin{
+    padding: 10px;
+}
+
+
+/* calculator */
+.calbody{
+    background-color: #f1f1f1;
+}
+
+.container{
+    background-color: #9dd2ea;
+    width: 230px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 3px;
+    
+}
+
+.result{
+    padding: 27px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 2px;
+}
+.calrow{
+    margin: 5px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+}
+
